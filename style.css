@@ -1,0 +1,152 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+
+}
+
+.header{
+    text-align: center;
+}
+.header p{
+color: rgba(86, 88, 90, 0.577);
+}
+.buttons{
+margin: 40px 0;
+}
+#btn1{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(12, 140, 140);
+}
+#btn2{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(14, 71, 129, 0.685);
+}
+.section2{
+    margin: 80px 0;
+    /* width: 400px; */
+    
+    text-align: center;
+}
+
+.section2 p{
+color: rgba(85, 83, 81, 0.627);
+max-width: 500px;
+margin: 0 auto;
+
+}
+.com_section{
+    font-size: 0;
+    padding:0 200px;
+}
+.com_section .lists{
+    display: inline-block;
+    margin-bottom: 80px;
+    margin: 0 100px;
+    font-size: 16px;
+    width: 200px;
+}
+.com_section img{
+    width: 500px;
+
+}
+.com_section .imge{
+display: inline-block;  
+margin-top: 100px;  
+}
+
+.dvices{
+    text-align: center;
+    /* width: 100px; */
+}
+
+.parent{
+text-align: center;
+}
+.parent .section{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    padding: 0 100px;
+}
+.parent .section p{
+color: gray;
+
+}
+.companes{
+    text-align: center;
+    margin: 70px 0;
+}
+.companes img{
+margin: 0 50px;
+}
+/* تنسيق الحاوية الرئيسية للفوتر وتوسيط المحتوى */
+.site-footer {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  border-top: 1px solid #eaeaea;
+  text-align: center; /* لتوسيط عناصر الـ inline-block داخله */
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.footer-links,
+.footer-social {
+  display: inline-block;
+  font-size: 16px;
+  text-align: left; 
+}
+
+.footer-links {
+  width: 70%;
+}
+
+.footer-social {
+  width: 30%;
+  text-align: right; 
+}
+.footer-col {
+  display: inline-block;
+  list-style: none;
+  margin: 0 30px 0 0;
+  padding: 0;
+}
+
+.footer-col li {
+  margin-bottom: 12px;
+}
+
+.footer-col a,
+.social-icon {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+}
+
+
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #1c455b77;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 4px;
+  margin-left: 8px; 
+  
+}
+
+.footer-content img{
+    width: 40px;
+}
